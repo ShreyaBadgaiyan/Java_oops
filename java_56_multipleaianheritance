@@ -1,0 +1,2 @@
+Java does not support multiple interitance rather supports the usage of Interfaces.
+A class can be assigned more than 1 interface and implement it but cannot extend more than 1 class.
