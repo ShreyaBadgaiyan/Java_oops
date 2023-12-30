@@ -13,6 +13,10 @@ class AvonCycle implements Bicycle{
     public void speedUp(int increment){
         speed=speed+increment;
         System.out.println(speed);
+
+    }
+     void horn(){
+        System.out.println("PeePoooo");
     }
 }
 
@@ -24,6 +28,6 @@ public class java_54_interfaces {
         AvonCycle obj=new AvonCycle() ;
         obj.applyBrake(6);
         obj.speedUp(8);
-        
+        obj.horn();
     }
 }
